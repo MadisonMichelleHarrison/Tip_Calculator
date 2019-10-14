@@ -1,0 +1,60 @@
+body {
+    background-image: linear-gradient(to bottom right,rgb(255, 255, 219),rgb(90, 170, 170) ,rgb(192, 100, 14));
+}
+#container {
+    background-color: rgb(255, 255, 219);
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    border-radius: 20px; /*Round off the edges of the element */
+    box-shadow: 10px 10px 5px rgb(58, 58, 58); /*First is horizontal offset and the other is vertical */
+}
+h1 {
+    background-color: rgb(82, 80, 80);
+    color:rgb(255, 255, 219);
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px 100px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+p {
+    padding-left: 20px;
+}
+#billAmt, #serviceQual, #numPeople {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+#billAmt:focus, #serviceQual:focus, #numPeople:focus {
+    border: 3px solid rgb(58, 58, 58);
+    outline: none;
+}
+
+button {
+    display: block;
+    margin: 30px auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    font-size: 20pt;
+    background-color: rgb(82, 80, 80);
+    color: rgb(255, 255, 219);
+}
+
+button:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+button:focus {
+    outline: none;
+}
+
+#tipAmount {
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
+}
